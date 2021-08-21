@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+section h3 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.box1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 10px;
+    color: #000;
+    background-color: burlywood;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.image,
+.image1 {
+    max-width: 250px;
+    margin-top: 30px;
+}
+
+.box2 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(104, 138, 104);
+    color: #fff;
+    padding: 100px 10px;
+    margin: 0;
+    overflow-x: hidden;
+}
